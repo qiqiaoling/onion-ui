@@ -142,7 +142,7 @@
       &::before
         color: transparent
       i
-        color: $checkbox-checked-icon-color
+        color: $blue-5
         transform: scale(1.23)
   .onion-checkbox_disabled
     .onion-checkbox-ui

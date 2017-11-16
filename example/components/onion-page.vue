@@ -71,7 +71,7 @@
         top: 0
         left: 0
         padding: 0 15px
-        color: #fc9153
+        color: $gray-5
     .wrapper
       width: 100%
       height: calc(100% - 44px)
