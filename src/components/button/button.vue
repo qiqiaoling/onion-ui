@@ -42,6 +42,22 @@
         type: Boolean,
         default: false
       },
+      height50: {
+        type: Boolean,
+        default: false
+      },
+      f19h54: {
+        type: Boolean,
+        default: false
+      },
+      cRed: {
+        type: Boolean,
+        default: false
+      },
+      cGray: {
+        type: Boolean,
+        default: false
+      },
       type: {
         type: String,
         default: 'button'
@@ -56,7 +72,11 @@
           'onion-btn-primary': this.primary,
           'onion-btn-outline': this.outline,
           'onion-btn-outline-primary': this.outline && this.primary,
-          'onion-btn-white': this.white
+          'onion-btn-white': this.white,
+          'height50': this.height50,
+          'f19h54': this.f19h54,
+          'cRed': this.cRed,
+          'cGray': this.cGray
         }
       }
     },
@@ -114,16 +134,33 @@
       border-1px($btn-disabled-bdc)
 
   .onion-btn-white
-    color: $blue-5
+    color: $gray-5
     background-color: $white
     btn-active($gray-e8, $btn-light-active-bdc)
+
+  .height50
+    padding: 16.5px 16px
+    border-radius: 0
+
+  .f19h54
+    font-size: $font-19
+    padding: 18.5px 16px
+    color: $blue-5
+    background-color: $white
+    &.cRed
+      color: $red-5
+    &.cGray
+      color: $gray-5
+
+  
+
 
   .onion-btn-inline
     width: auto
     display: inline-block
     vertical-align: middle
-    padding: 9px 10px
-    font-size: $fontsize-small
+    padding: 9px 12px
+    font-size: $font-14
     font-weight bold
     > i
       margin-right: 2px

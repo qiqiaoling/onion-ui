@@ -3,7 +3,7 @@
     <div slot="content">
       <form action="/">
         <onion-button-group>
-          <onion-button>蓝色按钮</onion-button>
+          <onion-button>蓝色按钮f17h45</onion-button>
           <onion-button type="submit">蓝色submit按钮</onion-button>
         </onion-button-group>
         <onion-button-group>
@@ -11,12 +11,16 @@
           <onion-button :disabled="true">禁用按钮</onion-button>
         </onion-button-group>
         <onion-button-group>
-          <onion-button icon="onionic-right">带icon的按钮</onion-button>
+          <onion-button icon="onion-right">带icon的按钮</onion-button>
         </onion-button-group>
         <onion-button-group>
           <onion-button :white="true">白色按钮</onion-button>
+          <onion-button :height50="true">蓝色按钮f17h50</onion-button>
+          <onion-button :f19h54="true">白色按钮f19h54</onion-button>
+          <onion-button :f19h54="true" :cRed='true'>白色按钮f19h54</onion-button>
+          <onion-button :f19h54="true" :cGray='true'>白色按钮f19h54</onion-button>
           <onion-button :inline="true">行内按钮</onion-button>
-          <onion-button :inline="true">行内按钮</onion-button>
+          <onion-button :inline="true" :disabled="true">禁用按钮</onion-button>
           <onion-button :outline="true">按钮</onion-button>
           <onion-button :primary="true">按钮</onion-button>
         </onion-button-group>
