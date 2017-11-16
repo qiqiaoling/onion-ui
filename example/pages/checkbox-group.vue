@@ -1,5 +1,5 @@
 <template>
-  <onion-page type="checkbox-group-view" title="CheckboxGroup">
+  <onion-page type="checkbox-group-view" title="复选框组">
     <template slot="content">
       <onion-checkbox-group v-model="checkList">
         <onion-checkbox label="1">Checkbox 1</onion-checkbox>

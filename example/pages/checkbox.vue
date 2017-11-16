@@ -1,5 +1,5 @@
 <template>
-  <onion-page type="checkbox-view" title="Checkbox">
+  <onion-page type="checkbox-view" title="复选框">
     <template slot="content">
       <onion-checkbox v-model="checked">Checkbox</onion-checkbox>
       <p>checked value: {{checked}}</p>

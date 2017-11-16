@@ -1,5 +1,5 @@
 <template>
-  <onion-page type="button-view" title="Button">
+  <onion-page type="button-view" title="按钮">
     <div slot="content">
       <form action="/">
         <onion-button-group>
