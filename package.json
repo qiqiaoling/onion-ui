@@ -2,6 +2,8 @@
   "name": "onion-ui",
   "version": "1.0.0",
   "description": "onion-ui lib by vue2",
+  "license": "MIT",
+  "private": false,
   "main": "lib/index.js",
   "module": "src/index.js",
   "scripts": {
@@ -15,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:qiqiaoling/onion-ui.git"
+    "url": "git+ssh://git@github.com/qiqiaoling/onion-ui.git"
   },
   "homepage": "https://github.com/qiqiaoling/onion-ui.git",
   "bugs": {
@@ -27,7 +29,6 @@
     "vue",
     "components"
   ],
-  "license": "Apache",
   "dependencies": {
     "better-scroll": "^1.4.1"
   },
@@ -103,5 +104,10 @@
     "not and_ff <= 100",
     "not Edge <= 100",
     "Android >= 4.0"
-  ]
+  ],
+  "directories": {
+    "doc": "docs",
+    "example": "example"
+  },
+  "author": ""
 }
