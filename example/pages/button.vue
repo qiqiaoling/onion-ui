@@ -3,30 +3,31 @@
     <div slot="content">
       <form action="/">
         <onion-button-group>
-          <onion-button>Button</onion-button>
-          <onion-button type="submit">Submit Button</onion-button>
+          <onion-button>蓝色按钮</onion-button>
+          <onion-button type="submit">蓝色submit按钮</onion-button>
         </onion-button-group>
         <onion-button-group>
-          <onion-button :active="true">Active Button</onion-button>
-          <onion-button :disabled="true">Disabled Button</onion-button>
+          <onion-button :active="true">蓝色active按钮</onion-button>
+          <onion-button :disabled="true">禁用按钮</onion-button>
         </onion-button-group>
         <onion-button-group>
-          <onion-button icon="onionic-right">Button With Icon</onion-button>
+          <onion-button icon="onionic-right">带icon的按钮</onion-button>
         </onion-button-group>
         <onion-button-group>
-          <onion-button :white="true">White Button</onion-button>
-          <onion-button :inline="true">Inline Button</onion-button>
-          <onion-button :outline="true">Outline Button</onion-button>
-          <onion-button :primary="true">Primary Button</onion-button>
+          <onion-button :white="true">白色按钮</onion-button>
+          <onion-button :inline="true">行内按钮</onion-button>
+          <onion-button :inline="true">行内按钮</onion-button>
+          <onion-button :outline="true">按钮</onion-button>
+          <onion-button :primary="true">按钮</onion-button>
         </onion-button-group>
         <div>
           <onion-checkbox-group v-model="buttonStyle" :horizontal="true">
-            <onion-checkbox label="inline">Inline</onion-checkbox>
-            <onion-checkbox label="outline">Outline</onion-checkbox>
-            <onion-checkbox label="primary">Primary</onion-checkbox>
+            <onion-checkbox label="inline">复选</onion-checkbox>
+            <onion-checkbox label="outline">复选</onion-checkbox>
+            <onion-checkbox label="primary">复选</onion-checkbox>
           </onion-checkbox-group>
           <onion-button-group>
-            <onion-button :inline="inlineStyle" :outline="outlineStyle" :primary="primaryStyle">Demo Button</onion-button>
+            <onion-button :inline="inlineStyle" :outline="outlineStyle" :primary="primaryStyle">按钮</onion-button>
           </onion-button-group>
         </div>
       </form>

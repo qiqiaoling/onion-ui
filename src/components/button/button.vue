@@ -84,12 +84,13 @@
   .onion-btn
     display: block
     margin: 0
-    padding: 17px 16px
+    padding: 14px 16px
     width: 100%
     text-align: center
     white-space: nowrap
     cursor: pointer
-    font-size: $fontsize-large
+    font-size: $font-17
+    font-weight bold
     line-height: 1
     color: $white
     background: $blue-5
@@ -123,6 +124,7 @@
     vertical-align: middle
     padding: 9px 10px
     font-size: $fontsize-small
+    font-weight bold
     > i
       margin-right: 2px
       transform: scale(1.14)

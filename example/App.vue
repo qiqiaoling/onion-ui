@@ -25,15 +25,15 @@
         components: [
           {
             path: '/button',
-            text: 'Button'
+            text: '按钮'
           },
           {
             path: '/checkbox',
-            text: 'Checkbox'
+            text: '复选框'
           },
           {
             path: '/checkbox-group',
-            text: 'CheckboxGroup'
+            text: '复选框组'
           }
         ]
       }
