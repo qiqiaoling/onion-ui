@@ -96,7 +96,7 @@
     background: $blue-5
     outline: none
     border: none
-    border-radius: 2px
+    border-radius: 5px
     box-sizing: border-box
     -webkit-tap-highlight-color: transparent
     > i
