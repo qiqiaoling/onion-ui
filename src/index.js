@@ -1,4 +1,5 @@
 import {
+  Style,
   Button,
   CheckboxGroup
 } from './module'
@@ -8,6 +9,7 @@ function install(Vue) {
     return
   }
   const components = [
+    Style,
     Button,
     CheckboxGroup
   ]
