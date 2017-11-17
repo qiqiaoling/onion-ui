@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "description": "onion-ui lib by vue2",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "main": "lib/index.js",
   "module": "src/index.js",
   "scripts": {
