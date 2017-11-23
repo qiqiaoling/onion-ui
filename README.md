@@ -29,6 +29,4 @@ git clone git@github.com:xxx/onion-ui.git
 cd onion-ui
 npm install
 npm run dev
-# or run document development
-npm run doc-dev
 ```
