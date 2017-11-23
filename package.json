@@ -1,9 +1,9 @@
 {
   "name": "onion-ui",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "onion-ui lib by vue2",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "main": "lib/index.js",
   "module": "src/index.js",
   "scripts": {
